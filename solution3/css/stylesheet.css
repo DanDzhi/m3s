@@ -1,0 +1,88 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+/** HEADER START **/
+
+#header-nav{
+	background-color: lightslategrey;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+#brand-name {
+	padding: 0px 15px 10px;
+	margin: 10px 15px 10px 15px;
+	color: orange;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid lightslategrey;
+  background-color: orange;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -70px;
+  border: 1px solid orange;
+}
+
+.navbar-header button.navbar-toggle:hover,  .navbar-header button.navbar-toggle:focus{
+	border: 1px solid black;
+	background-color: darkorange;
+		.icon-bar {
+			border-color: white;
+		}
+}
+#nav-list {
+  margin: auto;
+}
+#nav-list a {
+	border-bottom: 1px solid black;
+	color: orange;
+	padding-bottom: 30px;
+	font-size: 1.3em;
+
+}
+#nav-list a:hover {
+  background: orange;
+  color: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/** HEADER END **/
+
+
+/** BODY START**/
+#page-heading{
+	background-color: black;
+	padding: 0px 0px 10px 0px;
+}
+
+#main-content{
+}
+#main-content #s-one{
+
+	background-color: lightslategrey;
+	height: auto;
+	width: 95%;
+	padding: 1px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+#main-content #s-one h3{
+	padding-top: 10px;
+	color: orange;
+}
+#main-content #s-one p{
+	font-size: 1.2em;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	overflow: auto;
+}
+/** BODY END **/
